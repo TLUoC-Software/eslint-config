@@ -135,7 +135,7 @@ export default tseslint.config(
         ignoredNodes: ['BreakStatement'],
       }],
       '@stylistic/newline-per-chained-call': [2, {
-        ignoreChainWithDepth: 1,
+        ignoreChainWithDepth: 4,
       }],
       '@stylistic/one-var-declaration-per-line': [2, 'always'],
       '@stylistic/padding-line-between-statements': [2,
